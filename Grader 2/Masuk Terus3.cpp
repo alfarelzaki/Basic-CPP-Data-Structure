@@ -5,16 +5,18 @@ int main (){
     // ios_base::sync_with_stdio(0);
     // cin.tie(0);
 
-    int x, y;
-    vector<int>vec;
+    long long x;
+    int y;
+    vector<long long>vec;
 
     while(cin>>x){
-        vec.push_back(x);
         if (x<=0) break;
+        vec.push_back(x);
     }
     
     cin >> y;
-    cout << vec[y-1] << "\n"; 
+    y--;
+    cout << vec[y] << "\n"; 
 
-    system("pause");
+    // system("pause");
 }
