@@ -1,7 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int arr[100]={}, top=-1;
+struct buku{
+    int nomor;
+    int judul;
+};
+
+buku arr[100]={};
+int top=-1;
 
 void pushatas(int x){
     top++;
