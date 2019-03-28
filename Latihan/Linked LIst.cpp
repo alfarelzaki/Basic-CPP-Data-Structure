@@ -40,7 +40,7 @@ void pop(linkedList &L){
 }
 void push(linkedList &L, string npt, string m){
     kendaraan *b;
-    // b=new kendaraan;
+    b=new kendaraan;
     b->noPlat=npt;
     b->merk=m;
     if (isEmpty(L)){
